@@ -1,0 +1,1455 @@
+{
+  "settings": {
+    "name": "Pool,Pump & Filter Company",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {}
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 57,
+    "versionPublish": "3.12.1",
+    "path": "@PROJECT_PATH@"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1.2em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#f1c050"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#efb93d"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-b",
+          "_params": {
+            "bgColor": "#f1c050",
+            "fontSize": "1.2",
+            "fontName": {},
+            "fontColor": "#000000",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/ppfc-logo-208x128.jpg",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Pool Man (Pvt) Ltd&nbsp;</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Overview</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Who we are</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html#pricing-table1-l\">Our Products</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html#gallery1-m\">Pool Gallery</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html#features1-1j\" aria-expanded=\"false\">Features</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html#content4-n\">Clientele</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html#form1-19\">For Quotes &amp; Bookings</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html#social-buttons2-17\">Testimonials &amp; Commentry</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html#contacts2-1e\" aria-expanded=\"true\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"page3.html\">Download PDF</a></li>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            "H1": {
+              "text-align": "center",
+              "font-size": "48px",
+              "font-family": "'Playfair Display', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Playfair+Display:400,700&subset=latin,cyrillic",
+              "color": "#000000"
+            }
+          },
+          "_anchor": "header1-1c",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mukeredzi-20141027-2000x2000.jpg",
+            "bgColor": "#fff8e0",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.3",
+            "overlayColor": "#ffffff",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "title": "Pool Pump &amp; Filter Centre",
+          "text": "A diverse, innovative &amp; passionate company which takes pride inthe swimming pool industry. We believe in our clients' ideas &amp; vision for conversion into a pool design thats not only perplexing for leisure but ideal for sport, water therapy &amp; value addition to the property.&nbsp;",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">Next</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_styles": {
+            "I": {
+              "font-size": "15px",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            },
+            "H4": {
+              "font-size": "15px"
+            }
+          },
+          "_anchor": "features1-1j",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/20150312-2000x1500.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showCaptions": false,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/blank-avatar3-600x667.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title1": "<b>Chief Operating Officer</b><br><br><i><b>Richard Mauya</b></i><br><br>a young &amp; prosperous entrepreneur of<div>repute and shrewd strategic planner. He has built the organization from scratch. He has</div><div>many years of hands-on experience in the pool industry.</div>",
+          "caption1": "Bootstrap 3 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/blank-avatar3-600x667.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title2": "<b>Technical &amp;Procurement</b><br><b><br><i>George Mukeredzi</i></b><br><br><div>He has more than 14 years working experience in the pool industry. His technical expertise guarantees the best quality job beyond expectation.</div><div><br></div>",
+          "caption2": "One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/blank-avatar3-600x667.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title3": "<b>Marketing/ICT</b><b><br></b><br><b><i>Craig Chikerema</i></b><br><br>an innovative &amp; passionate team player whose focussed on bringing results and great customer care services.&nbsp;",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/blank-avatar3-600x667.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title4": "<b>(Non Executive Director)<br></b><br><i><b>Mr. Newlife Mabuya</b></i><br>&nbsp;<div>He is a holder of a Masters Degree in Psychology with the University of Zimbabwe. Being a counselor &amp; life coach by profession, he provides a sound and profound business planning platform to the company.&nbsp;</div><div><br></div>",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>"
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {},
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-c",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#000000",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/ppfc-logo-208x128.jpg",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Pool Man (Pvt) Ltd&nbsp;</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Overview</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Who we are</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html#pricing-table1-l\">Our Products</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html#gallery1-m\">Pool Gallery</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html#features1-1j\" aria-expanded=\"false\">Features</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html#content4-n\">Clientele</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html#form1-19\">For Quotes &amp; Bookings</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html#social-buttons2-17\">Testimonials &amp; Commentry</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html#contacts2-1e\" aria-expanded=\"true\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"page3.html\">Download PDF</a></li>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-k",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/dsc00591-2000x1500.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#fff",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "where pools are a good investment!",
+          "caption": "<p>About The Pool Man Pvt Ltd t/a Pool Pump</p><p>Out of a partnership from Pool Pump and Filter Centre (PPFC), the Pool Man Pvt Ltd was born. The Pool Man Pvt Ltd which operates under the trade name Pool Pump (PP) is the visionary work of a great Director who at first thought of PPFC which he later acquired a new strategic partner to start out as a new entity PP. It is still the good old PPFC operating under a new name and another new alliance, for your convenience. Pool Man Pvt Ltd t/a Pool Pump will still prides itself in the swimming pool industry with more than 15years operating making it a name to reckon with. It remains the most customer sensitive swimming pool company in Zimbabwe by far. Pool Pump understands that an investing in swimming pools is worth it, quality and professionalism being the lead factors and motivators in converting your vision into a breath taking pool shape and design. Pool Pump is also the sole distributor or Speck brand products in the country. In the pool industry, PPFC is renowned for professional workmanship and inspired by good governance.&nbsp;</p><p><br></p>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table1",
+          "_anchor": "pricing-table1-l",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/dsc01394-2000x1500.jpg",
+            "bgColor": "#FFF8E0",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "firstType": "bg-success",
+            "showButtons": true,
+            "secondType": "bg-warning",
+            "thirdType": "bg-danger",
+            "fourthType": "bg-primary"
+          },
+          "title1": "Chemicals &amp; Swimming Gears",
+          "currency1": "$",
+          "price1": "0",
+          "period1": "",
+          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>•\tPool chemicals &nbsp; &nbsp;</b></li><li class=\"list-group-item\"><b>•\tPool paint</b></li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"page1.html#gallery1-1f\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">View</a>",
+          "title2": "Pool Maintainance Equipment",
+          "currency2": "$",
+          "price2": "0",
+          "period2": "",
+          "list2": "<b style=\"font-size: 1rem; line-height: 1.5;\">•\tPool equipment&nbsp;</b><br><ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>•\tPool accessories</b></li><li class=\"list-group-item\"><b>•\tSwimwear and gear</b></li><li class=\"list-group-item\"><b>•\tPool lights</b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem; line-height: 1.5;\">•\tPool covers</b></li><li class=\"list-group-item\"><b>•\tPool nets</b></li></ul>",
+          "button2": "<a data-app-btn=\"true\" href=\"page1.html#gallery1-1g\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">View</a>",
+          "title3": "Construction &amp; Installations",
+          "currency3": "$",
+          "price3": "0",
+          "period3": "Neg",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>•\tPool construction</b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem; line-height: 1.5;\">•\tPool renovations</b></li><li class=\"list-group-item\"><b><b style=\"font-size: 1rem; line-height: 1.5;\">•\tTennis Courts</b></b></li><li class=\"list-group-item\"><b>•\tHeating system</b></li></ul>",
+          "button3": "<a data-app-btn=\"true\" href=\"page1.html#gallery1-1h\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">View</a>",
+          "title4": "Services",
+          "currency4": "$",
+          "price4": "0",
+          "period4": "Neg",
+          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>•\tPool maintenance&nbsp;</b></li><li class=\"list-group-item\"><b>•\tEquipment repairs</b></li><li class=\"list-group-item\"><b>•\tTraining pool minders/owners</b></li><li class=\"list-group-item\"><b>•\tPool cleaning</b></li><li class=\"list-group-item\"><b>•\tSwimming lessons</b></li><li class=\"list-group-item\"><b>•\tWater Delivery&nbsp;</b></li></ul>",
+          "button4": "<a data-app-btn=\"true\" href=\"page1.html#gallery1-1i\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">View</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-2000x2666.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/2-in-1-test-kit-2000x1191-800x476.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2-in-1-test-kit-2000x1191.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-1-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-1-2000x2666.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-2000x2909-800x1163.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-2000x2909.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-2000x2991-800x1196.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-2000x2991.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-2-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-2-2000x2666.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-3-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-3-2000x2666.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-2000x2749-800x1099.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-2000x2749.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-4-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-4-2000x2666.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-5-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-5-2000x2666.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-2000x3109-800x1243.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-2000x3109.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/img-20130718-2000x2882-800x1152.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20130718-2000x2882.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/img-20130718-2000x2895-800x1158.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20130718-2000x2895.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/img-20130718-2000x2506-800x1002.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20130718-2000x2506.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-2000x3381-800x1352.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-2000x3381.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/img-20130718-2000x3315-800x1326.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20130718-2000x3315.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/img-20130718-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20130718-2000x2666.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#5bc0de",
+            "showBullets": true
+          },
+          "_anchor": "gallery1-1f",
+          "articleLayout": false
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-6-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-6-2000x2666.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-7-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-7-2000x2666.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-8-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-8-2000x2666.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-2000x2244-800x897.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-2000x2244.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-2000x1938-800x775.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-2000x1938.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-1-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-1-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-2000x1877-800x750.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-2000x1877.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-2000x1884-800x753.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-2000x1884.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-2000x2157-800x862.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-2000x2157.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-2000x2436-800x974.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-2000x2436.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-9-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-9-2000x2666.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-2-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-2-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-10-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-10-2000x2666.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-11-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-11-2000x2666.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-2000x2159-800x863.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-2000x2159.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-3-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-3-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-2000x2589-800x1035.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-2000x2589.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-2000x2498-800x999.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-2000x2498.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-4-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-4-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-2000x2283-800x913.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-2000x2283.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-6-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-6-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-5-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-5-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dscf0093-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscf0093-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/images-2000x1415-800x566.jpg",
+                "image": "@PROJECT_PATH@/assets/images/images-2000x1415.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/pentair-pump-2000x1302-800x520.jpg",
+                "image": "@PROJECT_PATH@/assets/images/pentair-pump-2000x1302.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/swimirfloor-pumps-2000x1306-800x522.jpg",
+                "image": "@PROJECT_PATH@/assets/images/swimirfloor-pumps-2000x1306.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/prod-2000x1337-800x534.jpg",
+                "image": "@PROJECT_PATH@/assets/images/prod-2000x1337.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/images-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/images-2000x2000.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dscn0645-2000x1933-800x773.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscn0645-2000x1933.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/pdps-portfolio-speck-pool-2000x960-800x384.jpg",
+                "image": "@PROJECT_PATH@/assets/images/pdps-portfolio-speck-pool-2000x960.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20150205-2000x1207-800x482.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20150205-2000x1207.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/img-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/top-mount-2000x2706-800x1082.jpg",
+                "image": "@PROJECT_PATH@/assets/images/top-mount-2000x2706.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-12-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-12-2000x2666.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-2000x2081-800x832.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-2000x2081.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/heat-pump-1-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/heat-pump-1-2000x2666.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/heat-pump-2-2000x1551-800x620.jpg",
+                "image": "@PROJECT_PATH@/assets/images/heat-pump-2-2000x1551.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/baskets-2000x1357-800x542.jpg",
+                "image": "@PROJECT_PATH@/assets/images/baskets-2000x1357.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/equipment-badu-vaccum-cleaner-baraccuda-2000x1792-800x716.jpg",
+                "image": "@PROJECT_PATH@/assets/images/equipment-badu-vaccum-cleaner-baraccuda-2000x1792.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130227-13-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130227-13-2000x2666.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/2708000013-md-2000x1375-800x550.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2708000013-md-2000x1375.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/accksor-2000x960-800x384.jpg",
+                "image": "@PROJECT_PATH@/assets/images/accksor-2000x960.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/accsory-2000x990-800x396.jpg",
+                "image": "@PROJECT_PATH@/assets/images/accsory-2000x990.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/skimmmer-2000x1271-800x508.jpg",
+                "image": "@PROJECT_PATH@/assets/images/skimmmer-2000x1271.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/img-20130718-2000x2254-800x901.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20130718-2000x2254.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/equipment-weir-skimmer-box-2000x1800-800x720.jpg",
+                "image": "@PROJECT_PATH@/assets/images/equipment-weir-skimmer-box-2000x1800.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/poonets-2000x1450-800x580.jpg",
+                "image": "@PROJECT_PATH@/assets/images/poonets-2000x1450.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/covr-2000x1235-800x494.jpg",
+                "image": "@PROJECT_PATH@/assets/images/covr-2000x1235.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/pool-cover-2000x1353-800x541.jpg",
+                "image": "@PROJECT_PATH@/assets/images/pool-cover-2000x1353.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/underwater-gunite-lights-1-2000x2097-800x838.jpg",
+                "image": "@PROJECT_PATH@/assets/images/underwater-gunite-lights-1-2000x2097.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/underwater-gunite-lights-2-2000x2322-800x928.jpg",
+                "image": "@PROJECT_PATH@/assets/images/underwater-gunite-lights-2-2000x2322.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dscn0587-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscn0587-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dscn0614-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscn0614-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dscn0610-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscn0610-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dscn0595-2000x1725-800x690.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscn0595-2000x1725.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dscn0639-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscn0639-2000x2666.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dscn0678-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscn0678-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dscn0679-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscn0679-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dscn0680-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscn0680-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dscn0638-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscn0638-2000x2666.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dscn0648-2000x2134-800x853.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscn0648-2000x2134.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/boys-trunks-2000x2555-800x1022.jpg",
+                "image": "@PROJECT_PATH@/assets/images/boys-trunks-2000x2555.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/boys-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/boys-2000x2000.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/men-and-boys-swim-shorts-2000x2555-800x1022.jpg",
+                "image": "@PROJECT_PATH@/assets/images/men-and-boys-swim-shorts-2000x2555.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/mens-aqua-shorts-2000x2555-800x1022.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mens-aqua-shorts-2000x2555.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/mens-jammers-2000x2555-800x1022.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mens-jammers-2000x2555.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/swimwear-mens-boxer-swim-tights-2000x1818-800x727.jpg",
+                "image": "@PROJECT_PATH@/assets/images/swimwear-mens-boxer-swim-tights-2000x1818.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/swimwear-girls-busty-costume-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/swimwear-girls-busty-costume-2000x2666.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/swmwear-girls-camouflage-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/swmwear-girls-camouflage-2000x2666.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/swimwear-girls-one-arm-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/swimwear-girls-one-arm-2000x2666.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/swimwear-ladies-two-piece-back-out-2000x2339-800x935.jpg",
+                "image": "@PROJECT_PATH@/assets/images/swimwear-ladies-two-piece-back-out-2000x2339.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/swimwear-ladies-two-piece-bikini-and-skirt-2000x2347-800x938.jpg",
+                "image": "@PROJECT_PATH@/assets/images/swimwear-ladies-two-piece-bikini-and-skirt-2000x2347.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/swimwear-ladies-two-piece-conservative-2000x2292-800x916.jpg",
+                "image": "@PROJECT_PATH@/assets/images/swimwear-ladies-two-piece-conservative-2000x2292.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/swimwear-two-piece-bikiniskirt-2000x2230-800x892.jpg",
+                "image": "@PROJECT_PATH@/assets/images/swimwear-two-piece-bikiniskirt-2000x2230.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/img-20130513-wa0002-2000x1807-800x722.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20130513-wa0002-2000x1807.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/img-20130513-wa0003-2000x2680-800x1072.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20130513-wa0003-2000x2680.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/img-20130513-wa0001-2000x1047-800x418.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20130513-wa0001-2000x1047.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/boyleg-costume-2000x2555-800x1022.jpg",
+                "image": "@PROJECT_PATH@/assets/images/boyleg-costume-2000x2555.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/boyleg-2-2000x2555-800x1022.jpg",
+                "image": "@PROJECT_PATH@/assets/images/boyleg-2-2000x2555.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/costume-ladies-2000x2555-800x1022.jpg",
+                "image": "@PROJECT_PATH@/assets/images/costume-ladies-2000x2555.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/swimming-costume-2000x2555-800x1022.jpg",
+                "image": "@PROJECT_PATH@/assets/images/swimming-costume-2000x2555.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/shaper-boyleg-2000x2735-800x1094.jpg",
+                "image": "@PROJECT_PATH@/assets/images/shaper-boyleg-2000x2735.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/img-20130516-wa0002-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20130516-wa0002-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/hpim0134-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/hpim0134-2000x2666.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/hpim0135-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/hpim0135-2000x2666.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/hpim0136-2-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/hpim0136-2-2000x2666.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/img-20130516-wa0005-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20130516-wa0005-2000x2666.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/sw-2000x1134-800x453.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sw-2000x1134.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/solar-blanket-2000x1303-800x521.jpg",
+                "image": "@PROJECT_PATH@/assets/images/solar-blanket-2000x1303.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#efefef",
+            "showBullets": true
+          },
+          "_anchor": "gallery1-1g",
+          "articleLayout": false
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01095-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc01095-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20130302-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20130302-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/2012-10-29-12-2000x1203-800x481.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2012-10-29-12-2000x1203.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01394-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc01394-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20150521-2000x758-800x303.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20150521-2000x758.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dscf0318-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscf0318-2000x1332.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/poolnet-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/poolnet-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dscf0284-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscf0284-2000x1332.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#0275d8",
+            "showBullets": true
+          },
+          "_anchor": "gallery1-1h",
+          "articleLayout": false
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/sam-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sam-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/photo0297-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/photo0297-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-2000x1125.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/photo0198-2000x1913-800x765.jpg",
+                "image": "@PROJECT_PATH@/assets/images/photo0198-2000x1913.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/img-1-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-1-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/certificate-2-2000x2829-800x1131.jpg",
+                "image": "@PROJECT_PATH@/assets/images/certificate-2-2000x2829.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#f1c050",
+            "showBullets": true
+          },
+          "_anchor": "gallery1-1i",
+          "articleLayout": false
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {},
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#f1c050"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#efb93d"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-d",
+          "_params": {
+            "bgColor": "#f1c050",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#000000",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/ppfc-logo-208x128.jpg",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Pool Man (Pvt) Ltd&nbsp;</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Overview</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Who we are</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html#pricing-table1-l\">Our Products</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html#gallery1-m\">Pool Gallery</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html#features1-1j\" aria-expanded=\"false\">Features</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html#content4-n\">Clientele</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html#form1-19\">For Quotes &amp; Bookings</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html#social-buttons2-17\">Testimonials &amp; Commentry</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html#contacts2-1e\" aria-expanded=\"true\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"page3.html\">Download PDF</a></li>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/2012-09-12-16-2000x1203-800x481.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2012-09-12-16-2000x1203.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/2012-11-01-16-2000x1203-800x481.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2012-11-01-16-2000x1203.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/2012-11-01-16-2000x1203-800x481.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2012-11-01-16-2000x1203.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/2013-08-03-10-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2013-08-03-10-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/20150312-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20150312-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00556-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00556-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc00591-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc00591-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01150-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc01150-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01319-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc01319-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01320-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc01320-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01321-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc01321-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc01407-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc01407-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dscf0504-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscf0504-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dscf0505-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscf0505-2000x1500.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/marimbire-7-2000x1123-800x449.jpg",
+                "image": "@PROJECT_PATH@/assets/images/marimbire-7-2000x1123.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/mukeredzi-20141027-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mukeredzi-20141027-2000x2000.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#efefef",
+            "showBullets": true
+          },
+          "_anchor": "gallery1-m",
+          "articleLayout": false
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_anchor": "content4-n",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/ppfc-logo-2000x1229.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showTitles": true,
+            "showCaptions": true
+          },
+          "title1": "Learning Institutions",
+          "caption1": "Eaglesvale Primary School<br>Mr Bvumbe\t0772962372<br><br>Dudley Hall Primary School<br>Mrs Chihota\t0773268021<br>062 -2201<br><br>Mkoba Teachers College<br>Mr Ntini<br>0773641793<br><br>Louis Mount Batten \tMr Karanda\t0772868225<br>04-750089<br><br>Highlands Primary School<br>Mr Rusere<br>04-496216 / 498958<br><br>North Park Primary School\tMr Siraha\t0735129200<br><br>Biet Bridge Primary School<br>Mrs Moyo<br>0772393110<br>0268-22327<br><br>Kwekwe High School\tMr Shumba\t0712799237<br>055-22009<br><br>Oriel Girls High School\tMrs Marangwanda\t0773468999\t<br><span style=\"font-size: 1rem; line-height: 1.5;\">04494029</span><span style=\"font-size: 1rem; line-height: 1.5;\"><br></span><br>Danhiko College<br>Mr Manjonga\t0712392917<br><span style=\"font-size: 1rem; line-height: 1.5;\"><br></span>Rydings  Primary School<br>Mr Chatikobo\t0772956846<br>0264-6329/6529<br><br>Belvedere Primary School<br>Mrs Mukopfa\t0772201880<br>04-741090<br><span style=\"font-size: 1rem; line-height: 1.5;\"><br></span>Banket Primary School<br>Mr Tagwirei\t0772898240<br>066-2302<br><br>Alex Park Primary School<br>Mr Pamire\t0773388518<br>04-744141<br><br>Hallingbury Primary School<br>Ms Chibanda\t0773642778<br><br>Masaisai Primary School<br>Ms Kunaka\t0772349419<br><br>Amandas Primary School<br>Mr Mushambi\t0772311408<br><br>Groombridge Primary  \tMr Akino<br>04-745124<br><br>Allan Wilson High School<br>Pastor Makani\t0772119630<br><br>Highveld Primary School<br>Mr Kazembe\t0772967582<br>0225-3291<br><br>Bindura University<br>Mr Saika<br>0712645910<br><br>Midlands State University<br>Mr Kanengoni\t0772281060<br>054-260311<br>",
+          "title2": "Domestic",
+          "caption2": "",
+          "title3": "Gvt/Corporates",
+          "caption3": "One Commando\tCaptn Nyaruwata\t0712734496<br><br>Inscor Africa\t<br>Mr Khumbula\t0772428381<br><br>Boomerang<br>Mrs Zimuto\t0712860979<br><br>Mandel Training Centre<br>Mr Jawaza<br>04- 309071-5<br>",
+          "title4": "Churches/NGOs",
+          "caption4": "United States Embassy<br>Mr Nyarenda\t0772559748<br><br>Swedish Embassy<br>Mr Navonika\t0772418901<br><br>Japan Embassy<br>Mrs Kimiko\t0712865425<br>04 -250025<br><br>Holiday Inn<br>Mr Hari<br>0772779381<br>04-795638<br><br><span style=\"font-size: 1rem; line-height: 1.5;\">Cresta Oasis</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">Mr Chumi</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">0773575850</span><br><br>Leopard Rock Hotel\tMr Morrison\t0776464270<br>020-60192 /60115<br><br>Cresta Lodge<br>Mr Jonga<br>0772388380<br>04-486871<br><br>World Vision<br>Mrs Banda<br>O4-3319330<br><br>Ukie Mines<br> \tMr Chikono\t0772100064<br>04-308045<br><br>Zimplats Mines\t<br>Mr Muhambi\t0772262055<br>"
+        }
+      ]
+    },
+    "page3.html": {
+      "settings": {},
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1.2em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#f1c050"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#efb93d"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-e",
+          "_params": {
+            "bgColor": "#f1c050",
+            "fontSize": "1.2",
+            "fontName": {},
+            "fontColor": "#000000",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/ppfc-logo-208x128.jpg",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Pool Man (Pvt) Ltd&nbsp;</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Overview</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Who we are</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html#pricing-table1-l\">Our Products</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html#gallery1-m\">Pool Gallery</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html#features1-1j\" aria-expanded=\"false\">Features</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html#content4-n\">Clientele</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html#form1-19\">For Quotes &amp; Bookings</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html#social-buttons2-17\">Testimonials &amp; Commentry</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html#contacts2-1e\" aria-expanded=\"true\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"page3.html\">Download PDF</a></li>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map1",
+          "_anchor": "map1-t",
+          "_params": {
+            "googleMap": {
+              "address": "4 Kingsmead Road West, Borrowdale, Harare, Zimbabwe",
+              "placeId": "",
+              "state": "loading"
+            }
+          }
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-19",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#abdbf2",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "title": "Contact Form",
+          "form": {
+            "action": "chikeremacraigfungai@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contact Us</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "32px"
+            }
+          },
+          "_anchor": "social-buttons1-16",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "facebook": true,
+            "counters": true,
+            "twitter": true,
+            "google": true
+          },
+          "text": "Share This Page!"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_styles": {
+            "B": {
+              "text-align": "right"
+            },
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "contacts2-1e",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#37383e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "4 Kingsmead Road West, Borrowdale, Harare, Zimbabwe",
+              "placeId": "",
+              "state": "loading"
+            }
+          },
+          "text1": "<p><b>Contacts</b><br>whatsapp/sms/call +263775604623<br>\nEmail: craig@ppfc.co.zw</p><p><span style=\"font-size: 1rem; line-height: 1.5;\">sales@ppfc.co.zw</span></p><p><br><b>Address</b><br>4 Kingsmead Road West,<br>Borrowdale<br>Harare<br></p>",
+          "text2": ""
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "25px"
+            }
+          },
+          "_anchor": "social-buttons2-17",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#abdbf2",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "Follow Us",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-twitter\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-google\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"socicon socicon-google\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-youtube\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-pinterest\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-tumblr\" title=\"Tumblr\" target=\"_blank\" href=\"http://mobirise.tumblr.com/\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-linkedin\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"socicon socicon-linkedin\"></i></a> "
+        }
+      ]
+    }
+  }
+}
